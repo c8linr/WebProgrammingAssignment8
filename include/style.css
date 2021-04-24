@@ -1,0 +1,249 @@
+/* CSS Document by Caitlin Ross, Algonquin Student #040750891 */
+
+body {
+  background-color:OldLace;
+  font: medium Georgia, serif;
+  color:#331a00;
+  margin: 0;
+}
+
+.navbar {
+	width: 100%;
+	background-color: maroon;
+	overflow: hidden;
+	font: 1.8em Georgia, serif;
+	display: block;
+}
+
+.navbar a {
+	float: left;
+	text-align: center;
+	padding: 15px;
+	color: papayawhip;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.subnav {
+	float: left;
+	overflow: hidden;
+}
+
+.subnav .subnavbtn {
+	font-size: 20px;
+	border: none;
+	outline: none;
+	color: papayawhip;
+	padding: 15px;
+	background-color: maroon;
+	font-family: inherit;
+	margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+	background-color: sienna;
+	cursor: pointer;
+}
+
+.subnav-content {
+	display: none;
+	position: absolute;
+	left: 0;
+	background-color: sienna;
+	width: 100%;
+	z-index: 1;
+}
+
+.subnav-content a {
+	float: left;
+}
+
+.subnav-content a:hover {
+	background-color: papayawhip;
+	color: sienna;
+}
+
+.subnav:hover .subnav-content {
+	display: block;
+}
+
+/*#navpadding {
+	height: 70px;
+	width: 100%;
+}*/
+
+.icon, .flagIcon {
+	width: 0.7em;
+	height: 0.7em;
+	display: inline;
+}
+
+.about {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+h1 {
+  font: 3em "Lucida Handwriting", "Brush Script MT", cursive;
+}
+
+h2 {
+  font: italic 1.8em Georgia, serif;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-style: italic;
+  font-variant: small-caps;
+}
+
+small {
+  font-size: x-small;
+}
+
+#searchProducts {
+	width: auto;
+	font-size: 20px;
+	border: 2px groove burlywood;
+	margin: 15px 15px 30px 15px;
+}
+
+#prodList {
+	width: 100%;
+	border: 3px groove burlyWood;
+	border-collapse: collapse;
+}
+
+#prodList .tableHeader {
+	display: table-header-group;
+}
+
+/* #prodList .searchableData {
+	display: none;
+} */
+
+#prodList th, #prodList td {
+	padding: 5px;
+	text-align: left;
+	border-bottom: 1px groove burlywood;
+}
+
+#welcome {
+	margin: 0;
+	padding: 50px 30px 20px 20px;
+}
+
+#currencyform {
+	margin: 10px;
+}
+
+#greeting {
+	color: papayawhip;
+	font-size: 14pt;
+	padding: 15px 30px;
+	float: right;
+	overflow: hidden;
+	display: inline;
+}
+
+#top {
+  background-color:papayawhip;
+  margin: 15px auto 0px;
+  padding-top: 10px;
+  border: 3px groove BurlyWood;
+  max-width: 600px;
+  text-align: center;
+}
+
+table.display {
+  margin: 10px;
+  padding: 4px;
+  border: 3px groove BurlyWood;
+  border-collapse: collapse;
+}
+
+.display tr, .display th, .display td {
+  border: 1px solid BurlyWood;
+  padding: 2px;
+}
+
+.required {
+  color:FireBrick;
+  font-weight: bold;
+}
+
+fieldset {
+  border: 3px groove BurlyWood;
+  margin-top: 4px;
+}
+
+fieldset, fieldset *{
+  background-color: PapayaWhip;
+}
+
+fieldset input, fieldset select, fieldset option {
+  background-color:OldLace;
+}
+
+legend, .display th {
+  color: Maroon;
+  background-color:PeachPuff;
+  border: 2px groove BurlyWood;
+  padding: 3px;
+  font-weight: bold;
+}
+
+.weavingImage {
+  float: right;
+  max-width: 300px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+caption {
+  text-align: left;
+  font-size: small;
+  font-variant: small-caps;
+}
+
+#data {
+  padding-left: 8px;
+  max-width: 400px;
+}
+
+footer {
+	width: 100%;
+	background-color: maroon;
+	text-align: center;
+	color: papayawhip;
+	margin-top: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	overflow: hidden;
+	bottom: 0;
+}
+
+#footerpadding {
+	height: 50px;
+	width: 100%;
+}
+
+footer a:link {
+	color: burlywood;
+}
+
+footer a:visited {
+	color: tan;
+}
+
+footer a:hover {
+	color: indianred;
+}
+
+footer a:active {
+	color: saddlebrown;
+}
